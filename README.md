@@ -7,25 +7,45 @@ Computing various Key Performance Indicators (KPIs) for an e-commerce company, R
 ## Data Dictionary:
 The data is based on an Online Retail Data Set in the UCI Machine Learning Repository. Each order’s invoice has been represented in a JSON format. The sample data:
 {
+
   "items": [
+  
   {
+  
       "SKU": "21485",
+      
       "title": "RETROSPOT HEART HOT WATER BOTTLE",
+      
       "unit_price": 4.95,
+      
       "quantity": 6
+      
     },
+    
     {
+    
       "SKU": "23499",
+      
       "title": "SET 12 VINTAGE DOILY CHALK",
+      
       "unit_price": 0.42,
+      
       "quantity": 2
+      
     }
+    
   ],
+  
   "type": "ORDER"
+  
   "country": "United Kingdom",
+  
   "invoice_no": 154132541653705,
+  
   "timestamp": "2020-09-18 10:55:23",
+  
 }
+
 The data contains the following information:
 Invoice number: Identifier of the invoice
 Country: Country where the order is placed
